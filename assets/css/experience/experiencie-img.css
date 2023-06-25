@@ -1,0 +1,19 @@
+.experience__img{
+    padding: 1rem;
+}
+@media (max-width: 768px) {
+    .experience__img{
+        width: 704px;
+        height: 320px;
+        padding: 0rem;
+        margin: 0.25rem;
+    }
+}
+@media (max-width: 425px) {
+    .experience__img{
+        width: 18.5rem;
+        height: 7.375rem;
+        padding: 0rem;
+        margin: 0.25rem;
+    }
+}

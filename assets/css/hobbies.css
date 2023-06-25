@@ -1,0 +1,17 @@
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    margin-bottom: 4rem;
+}
+@media (max-width: 425px) 
+{
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        margin-bottom: 2rem;
+    }
+}

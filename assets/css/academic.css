@@ -1,0 +1,22 @@
+
+    .academic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #EAF2FD;
+        padding: 4rem;
+    }
+    @media (max-width:768px)
+    {
+        .academic{
+            padding: 1rem;
+        }
+    }
+    @media (max-width: 425px) {
+        .academic
+        {
+            padding: 2rem;
+        }
+    }

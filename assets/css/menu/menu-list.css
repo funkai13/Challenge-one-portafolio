@@ -1,0 +1,39 @@
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 500;
+  }
+.menu__list__item{
+  margin-left: 1.5rem;
+}
+.menu__list__item:hover{
+  text-decoration: underline black;
+}
+
+#correo{
+    font-weight: bold;
+}
+@media (max-width: 768px)
+{
+  #correo{
+  display: list-item;
+  margin-top: 0.5rem;
+  }
+  .menu__list__item{
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  #correo{
+    display: inline;
+    margin-top: 0.5rem;
+  }
+  .menu__list__item{
+   display: none;
+}
+.menu__list__item:hover{
+  text-decoration: underline black;
+}
+}

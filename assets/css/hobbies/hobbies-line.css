@@ -1,0 +1,13 @@
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media (max-width: 425px) {
+    .hobbies__line{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+    }
+  }

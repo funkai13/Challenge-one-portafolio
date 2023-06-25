@@ -1,0 +1,10 @@
+.skills__name {
+    margin: 0;
+    color:  #464646;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 700;
+  }
+  @media (min-width: 425px) {
+    
+  }

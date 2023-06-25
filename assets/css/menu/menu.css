@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #F5F5F5;
+    }
+    @media (max-width: 768px)
+    {
+        .menu
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            background-color: #F5F5F5;
+            
+        }
+    }
+    @media (max-width: 425px) {
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #F5F5F5;
+        align-self: stretch;
+        
+    }
+    }

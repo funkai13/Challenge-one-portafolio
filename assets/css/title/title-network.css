@@ -1,0 +1,36 @@
+.title__network
+{
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.title__network__item{
+margin-right: 1.5rem;
+}
+@media (max-width: 768px)
+{
+    .title__network{
+        display: flex;
+        flex-direction: row;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+}
+@media (max-width: 425px) {
+    .title__network{
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    }
+}

@@ -1,0 +1,20 @@
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 768px) 
+{
+    .academic__courses{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    }
+}
+@media (max-width: 425px) {
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}

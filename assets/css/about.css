@@ -1,0 +1,35 @@
+.about__container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin-right: 8.5rem;
+  margin-left: 8.5rem;
+  text-align: left;
+  align-items: flex-start;
+}
+  .about{
+    background-color: #EAF2FD;
+    
+}  
+@media (max-width: 768px)
+{
+   .about__container{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: left;
+    padding: 1rem;
+  }
+   } 
+
+  @media (max-width: 425px) 
+  {
+    .about__container 
+    {
+      
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+      text-align: left;
+      padding: 0;
+    }
+  }
+ 

@@ -1,0 +1,12 @@
+.about__img{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 140px;   
+    height: 52px;
+}
+@media (max-width: 425px) {
+    .about__img{
+        width: 140px;
+        height: 52px;
+    }
+}

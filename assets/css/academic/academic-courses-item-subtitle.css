@@ -1,0 +1,31 @@
+.academic__courses__item__subtitle{
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    color: #464646;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 500;
+}
+@media (max-width:768px)
+{
+    .academic__courses__item__subtitle
+    {
+        font-size: 14px;
+        font-family: Raleway;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 425px) 
+{
+    .academic__courses__item__subtitle
+    {
+        color: #464646;
+        font-size: 14px;
+        font-family: Raleway;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,20 @@
+.formcontato__botao {
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #2A7AE4;
+    width: 116px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: #2A7AE4;
+  }
+  
+  .formcontato__botao:hover {
+    transition: 500ms;
+    background-color: #0056b3;
+    cursor: pointer;
+}
+  
